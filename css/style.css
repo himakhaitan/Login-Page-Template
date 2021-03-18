@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.701), rgba(255, 255, 255, 0.701)), url(../img/background.jpg);
+  background-size: cover;
+  background-position: bottom; }
