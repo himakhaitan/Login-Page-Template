@@ -14,12 +14,5 @@ html {
 body {
    font-size: 1.6rem;
    height: 100vh;
-   background-image: linear-gradient(
-        to right bottom,
-        rgba($color-white, 0.701),
-        rgba($color-white, 0.701)
-      ),
-      url(../img/background.jpg);
-      background-size: cover;
-      background-position: bottom;
+   background-color: $color-blue-dark;
 }

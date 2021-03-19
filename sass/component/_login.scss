@@ -1,0 +1,10 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 87.5vh;
+
+    &__pattern {
+        display: grid;
+        grid-template-columns: repeat(7, 12.5vh);
+        grid-template-rows: repeat(8, 12.5vh);
+    }
+}

@@ -12,6 +12,181 @@ html {
 body {
   font-size: 1.6rem;
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.701), rgba(255, 255, 255, 0.701)), url(../img/background.jpg);
-  background-size: cover;
-  background-position: bottom; }
+  background-color: #112d4e; }
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 87.5vh; }
+  .main__pattern {
+    display: grid;
+    grid-template-columns: repeat(7, 12.5vh);
+    grid-template-rows: repeat(8, 12.5vh); }
+
+.pattern__element {
+  width: 12.5vh;
+  height: 12.5vh; }
+
+.one__1 {
+  background-image: linear-gradient(135deg, #1f5f75 0%, #1f5f75 50%, transparent 50%, transparent 100%); }
+
+.one__2 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.one__4 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.one__5 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.one__6 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #133c5c 50%, #133c5c 100%); }
+
+.one__7 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.two__1 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.two__2 {
+  background-color: #133c5c; }
+
+.two__3 {
+  background-image: linear-gradient(135deg, #1f5f75 0%, #1f5f75 50%, transparent 50%, transparent 100%); }
+
+.two__4 {
+  background-image: linear-gradient(135deg, #133c5c 0%, #133c5c 50%, transparent 50%, transparent 100%); }
+
+.two__5 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.two__6 {
+  background-color: #133c5c; }
+
+.two__7 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.three__1 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #133c5c 50%, #133c5c 100%); }
+
+.three__2 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #133c5c 50%, #133c5c 100%); }
+
+.three__3 {
+  background-image: linear-gradient(135deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.three__4 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #133c5c 50%, #133c5c 100%); }
+
+.three__5 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.three__6 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #133c5c 50%, #133c5c 100%); }
+
+.three__7 {
+  background-image: linear-gradient(45deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.four__1 {
+  background-color: #fcd9b9; }
+
+.four__2 {
+  background-image: linear-gradient(45deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.four__3 {
+  background-image: linear-gradient(135deg, #1f5f75 0%, #1f5f75 50%, transparent 50%, transparent 100%); }
+
+.four__4 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.four__5 {
+  background-color: #1f5f75; }
+
+.four__6 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.four__7 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.five__1 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #1f5f75 50%, #1f5f75 100%); }
+
+.five__2 {
+  background-image: linear-gradient(135deg, #1f5f75 0%, #1f5f75 50%, transparent 50%, transparent 100%); }
+
+.five__3 {
+  background-color: #1f5f75; }
+
+.five__4 {
+  background-image: linear-gradient(45deg, #133c5c 0%, #133c5c 50%, transparent 50%, transparent 100%); }
+
+.five__5 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #1f5f75 50%, #1f5f75 100%); }
+
+.five__6 {
+  background-color: #133c5c; }
+
+.five__7 {
+  background-image: linear-gradient(45deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.six__1 {
+  background-image: linear-gradient(45deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.six__2 {
+  background-image: linear-gradient(135deg, #133c5c 0%, #133c5c 50%, transparent 50%, transparent 100%); }
+
+.six__3 {
+  background-image: linear-gradient(45deg, #133c5c 0%, #133c5c 50%, transparent 50%, transparent 100%); }
+
+.six__4 {
+  background-image: linear-gradient(45deg, #133c5c 0%, #133c5c 50%, transparent 50%, transparent 100%); }
+
+.six__5 {
+  background-image: linear-gradient(135deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.six__6 {
+  background-image: linear-gradient(45deg, #1f5f75 0%, #1f5f75 50%, transparent 50%, transparent 100%); }
+
+.six__7 {
+  background-color: #fcd9b9; }
+
+.seven__1 {
+  background-color: #1f5f75; }
+
+.seven__2 {
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%, #1f5f75 50%, #1f5f75 100%); }
+
+.seven__3 {
+  background-image: linear-gradient(45deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.seven__4 {
+  background-image: linear-gradient(45deg, #1f5f75 0%, #1f5f75 50%, transparent 50%, transparent 100%); }
+
+.seven__5 {
+  background-color: #1f5f75; }
+
+.seven__6 {
+  background-image: linear-gradient(45deg, #fcd9b9 0%, #fcd9b9 50%, transparent 50%, transparent 100%); }
+
+.seven__7 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #1f5f75 50%, #1f5f75 100%); }
+
+.eight__1 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #1f5f75 50%, #1f5f75 100%); }
+
+.eight__2 {
+  background-color: #133c5c; }
+
+.eight__3 {
+  background-image: linear-gradient(45deg, #133c5c 0%, #133c5c 50%, transparent 50%, transparent 100%); }
+
+.eight__4 {
+  background-image: linear-gradient(135deg, #1f5f75 0%, #1f5f75 50%, transparent 50%, transparent 100%); }
+
+.eight__5 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #fcd9b9 50%, #fcd9b9 100%); }
+
+.eight__6 {
+  background-image: linear-gradient(45deg, transparent 0%, transparent 50%, #1f5f75 50%, #1f5f75 100%); }
+
+.eight__7 {
+  background-color: #133c5c; }
